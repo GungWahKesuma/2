@@ -24,8 +24,8 @@ def cash():
     Cash = input("Money : ")
     print("\n")
     total = int(Cash)
-    cashS = len(cashback)-1
-    csh = cashS
+    cashS = len(cashback)
+    csh = cashS-1
     qy = 0
     i = 0
     for i in range(i,cashS):
